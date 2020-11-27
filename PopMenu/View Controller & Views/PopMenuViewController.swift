@@ -29,7 +29,7 @@ final public class PopMenuViewController: UIViewController {
     
     /// The blur overlay view for translucent illusion.
     private lazy var blurOverlayView: UIVisualEffectView = {
-        let blurView = UIVisualEffectView(effect: UIBlurEffect(style: .dark))
+        let blurView = UIVisualEffectView(effect: UIBlurEffect(style: .light))
         blurView.translatesAutoresizingMaskIntoConstraints = false
         blurView.layer.cornerRadius = appearance.popMenuCornerRadius
         blurView.layer.masksToBounds = true
